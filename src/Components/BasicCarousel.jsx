@@ -13,11 +13,11 @@ const BasicCarousel = ({data}) => {
 let exercises=[]
   const navigate = useNavigate();
    const pictures=[
-    "https://thumbs.gfycat.com/DifficultHotBoto-max-1mb.gif",
+    "https://cdn.dribbble.com/users/985141/screenshots/3276029/rower-ani_4.gif",
     "https://i.pinimg.com/originals/37/1a/d4/371ad4137ee381e717e5e65113ffe4b9.gif",
     "https://cdn.dribbble.com/users/398490/screenshots/2039177/bench_gif.gif",
     "https://post.healthline.com/wp-content/uploads/2020/06/400x400_Forearm-Exercises_to_Do_at_the_Gym_or_at_Home_Palms_Up_Wrist_Curl.gif",
-    "https://thumbs.gfycat.com/WellinformedLateButterfly-size_restricted.gif",
+    "https://api.exercisedb.io/image/tZZUcQdxwDf9uG",
     "https://healthclue.eu/wp-content/uploads/2019/03/neck-stretches-gif.gif",
     "https://th.bing.com/th/id/OIP.wAOdASmdsp8szZ8o5dkoiAAAAA?pid=ImgDet&rs=1",
     "https://th.bing.com/th/id/R.ad9d418d578c592b55cf9a683bb5ae33?rik=cfZyx29%2fK4oXIA&riu=http%3a%2f%2fwww.sport-fitness-advisor.com%2fimages%2fdumbbell_exercises_concentration_curls.gif&ehk=GTyxRPUomqU7WnJTN1WS0ABHhNQQxIN0DyyEhgNRVmY%3d&risl=&pid=ImgRaw&r=0",
