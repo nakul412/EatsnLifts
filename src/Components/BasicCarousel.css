@@ -1,0 +1,124 @@
+ /* body{
+    background-color: #e74c3c;
+  } */
+  .wrapper{
+    width:100%;
+    padding-top: 20px;
+    text-align:center;
+  }
+  h2{
+    font-family:sans-serif;
+    color:#fff;
+  }
+  .carousel{
+    width:90%;
+    margin:0px auto;
+  }
+  .slick-slide{
+    margin:10px;
+  }
+  .slick-slide img{
+    width:100%;
+    border: 2px solid #fff;
+  }
+  .wrapper .slick-dots li button:before {
+    font-size:20px;
+    color:white;
+  }
+  .exerciseslist{
+    margin-top: 5%;
+  }
+  .exercisecard{
+    border:2px solid red;
+    width: 200px;
+    /* height: 300px; */
+    cursor:pointer;
+  }
+ 
+ .cardbutton{
+ 
+  position:absolute;
+  top:92%;
+  border:2px solid red;
+  left:20%;
+  color:white;
+  font-size: 1.5rem;
+  /* font-weight: bolder; */
+ }
+ .button {
+  position: absolute;
+  bottom: 0;
+  left: 20%; /* Adjust this value to move the button more to the left */
+  transform: translate(-50%, 50%);
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+  background-color: rgb(255,72,0);
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  text-align: center;
+  /* transition: all 1s; */
+  
+}
+
+.imgdiv2{
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+.card{
+  width:20rem;
+  height:350px;
+   /* border-left:1px solid rgb(255,72,0); */
+   /* border-bottom:1px solid rgb(255,72,0); */
+  border-radius: 20px;
+  
+  padding-top: 15%;
+  background-color: rgb(34,34,34);
+  
+
+}
+.cardname2{
+  /* margin-left: 55%; */
+  margin-top: 30%;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 2rem;
+  color:white;
+  text-align: center;
+}
+.flexcenter2{
+  text-align: center;
+}
+.animatedframe2{
+
+  /* filter: grayscale(100%); */
+  height:150px;
+  width:150px;
+  border-radius: 50%;
+  
+  
+}
+.button:hover{
+    /* width:300px; */
+    left:35%;
+    width:auto;
+    border-radius: 20px;
+}
+.button:hover span {
+  display: none;
+  
+}
+
+.button:hover::before {
+  content: "DISCOVER MORE";
+}
+.height-carousel{
+  height:480px;
+  
+}

@@ -1,0 +1,157 @@
+.Navdiv{
+    background-color: white;
+    width:95%;
+    margin:auto;
+    border-radius: 40px;
+    margin-bottom: 1%;
+    /* height:100px */
+}
+
+.contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  
+
+
+
+}
+ul{
+    list-style: none;
+
+}
+li{
+    text-decoration: none;
+    display: inline-block ;
+    margin:10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.goalstag{
+    /* width:90%; */
+    font-size: 2.5rem;  
+}
+.titlename{
+    color: black;
+    font-family: 'Fredoka', sans-serif;
+   
+}
+.orangecolor{
+    color:rgb(255,72,0);
+}
+.headingiframe{
+    border-radius: 50%;
+    border: 2px solid red;
+    width: 30px;
+    height: 30px;
+
+}
+
+
+  
+   .fill li {
+    position: relative;
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #000;
+    /* transform: all 0.5s; */
+    transition: color 1s;
+    /* transition: all 1s ease; */
+  }
+  
+ 
+  
+
+  
+
+  
+  .fill li:hover::before,
+  .fill li:hover::after {
+    content: "";
+    position: absolute;
+    left: -4px;
+    right: -4px;
+    top: -4px;
+    bottom: -4px;
+    border: 2px solid rgb(255, 72, 0); /* Border color on hover */
+    transition: border 0.3s;
+  }
+  
+  .fill li:hover::before {
+    top: -8px;
+    left: -8px;
+    border-right: none;
+    border-bottom: none;
+  }
+  
+  .fill li:hover::after {
+    bottom: -8px;
+    right: -8px;
+    border-left: none;
+    border-top: none;
+  }
+
+  
+/* @media(max-width:581px)
+{
+    .fill li{
+        margin: 7px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .titlename{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .orangecolor{
+        font-size: 25px;
+        font-weight: bold;
+    }
+} */
+.hamburger{
+    display: none;
+}
+@media only screen and (max-width:600px) {
+    .fill{
+        display: none;
+        
+    }
+    .hamburger{
+        display: inline-block;
+    }
+    .titlename{
+        font-size: 1rem;
+    }
+
+}
+
+.smallli{
+    display: block;
+    z-index: 20;
+    color:white;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 2rem;
+}
+.smallhamburger{
+    color:white;
+}
+.showsmallmenu{
+    position: fixed;
+    height:100vh;
+    width:100vw;
+    background-color: black;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* row-gap: 5%; */
+    /* align-items: space-around; */
+}
+
